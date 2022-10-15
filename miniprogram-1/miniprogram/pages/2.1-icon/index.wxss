@@ -1,0 +1,39 @@
+/* pages/2.1-icon/index.wxss */
+
+.gap{
+  width: 100%;
+  height: 30px;
+  margin-top:50px;
+}
+
+/* 4精灵集方案 代码 */
+.sprite_icon {  
+  display: block;
+  width: 60px;
+  height: 40px;  
+  /* 此处在wxss中，可以使用网络图片，不能使用本地图片 */
+  background: url("https://cdn.nlark.com/yuque/0/2020/png/1252071/1589205723989-7de580b9-c9fd-4485-8b5b-3768f2f31bd0.png") -180px -310px;
+}
+
+
+/* 使用css3绘制图标 */
+.icon-close {
+  display: inline-block;
+  width: 17px;
+  height: 2px;
+  background: green;
+  transform: rotate(45deg);
+}
+.icon-close::after {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 2px;
+  background: yellow;
+  transform: rotate(-90deg);
+}
+
+.scale2{
+  transform-origin: 0 0 0;
+  transform:scale(2,2)
+}

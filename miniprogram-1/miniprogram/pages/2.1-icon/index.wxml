@@ -1,0 +1,26 @@
+<!--pages/2.1-icon/index.wxml-->
+<text>pages/2.1-icon/index.wxml</text>
+
+<text>https://developers.weixin.qq.com/miniprogram/dev/component/icon.html</text>
+
+<text>1px和rpx关系</text>
+<icon type="success" size="30px" color="red"></icon>
+<icon type="success" size="30" color="blue"></icon>
+<icon type="success" size="80rpx" color="blue"></icon>
+
+<text>2图标颜色</text>
+<icon type="success" size="30px" color="red"></icon>
+<icon style="background:grey" type="success" size="60px" color="red"></icon>
+
+<text>3图文混排</text>
+<view>
+文本<icon type="download" size="15px"></icon>文本
+</view>
+
+<text>4精灵集方案</text>
+<icon class="sprite_icon "></icon>
+
+<text>5css方案</text>
+<icon class="icon-close"></icon>
+<view class="gap"></view>
+<icon class="icon-close scale2"></icon>
