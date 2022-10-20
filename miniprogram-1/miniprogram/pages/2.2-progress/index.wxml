@@ -1,0 +1,35 @@
+<!--pages/2.2-progress/index.wxml-->
+<text>pages/2.2-progress/index.wxml</text>
+<view class="page-section">
+<view class="example-container">
+
+<!-- 从iconfront.cn搜索两个图标，以自定义的方式 -->
+<icon class="iconfont icon-close"></icon>
+<icon class="iconfont icon-items"></icon>
+
+<!-- 百分比数字颜色 -->
+<view class="gap">progress 右边进度的百分比数字，它的颜色怎么设置？</view>
+<progress percent="40" stroke-width="15" show-info style="color:red"/>
+
+<!-- 2 代码示例-->
+<view class="gap">代码示例,单击模拟网络异步</view>
+<progress show-info bindtap="onTapProgressBar" stroke-width="5" percent="{{percentValue}}" backgroundColor="#353535" active-mode="forwards" active bindactiveend="onProgressActiveEnd"/>
+
+<!-- 5  progress已产生的进度条如何设置圆角？-->
+<view class="gap">progress进度条圆角</view>
+<progress border-radius="3" backgroundColor="red" percent="20" show-info/>
+
+<!-- 6 已经加载完的进度条progress，怎么点击某个按钮让它重新加载呢？ -->
+<view class="gap">已经加载完的进度条progress，怎么点击某个按钮让它重新加载呢？</view>
+<progress bindtap="onTapProgressBar" stroke-width="5" percent="{{percentValue}}" active-mode="forwards" active/>
+<button bindtap="onTapReloadBtn">重新加载</button>
+
+<!-- 7 环形进度条 -->
+<view class="gap">环形进度条</view>
+<circle-progress percent="{{percentValue}}"/>
+<button bindtap="drawProgress">redraw</button>
+
+
+
+</view>
+</view>

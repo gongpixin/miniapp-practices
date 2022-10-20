@@ -1,4 +1,7 @@
 /**app.wxss**/
+
+@import '/style/common.wxss';
+
 .container {
   display: flex;
   flex-direction: column;
@@ -24,4 +27,18 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.gap{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 10px 0 10px;
+  color: red;
+}
+
+.example-container{
+  margin: 40rpx 0 40rpx;
+  width: 650rpx;
+  height: 100%;
 }

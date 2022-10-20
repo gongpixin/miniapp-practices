@@ -3,7 +3,7 @@
 .gap{
   width: 100%;
   height: 30px;
-  margin-top:50px;
+  margin-top:150px;
 }
 
 /* 4精灵集方案 代码 */

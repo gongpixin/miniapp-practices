@@ -1,0 +1,32 @@
+/* pages/2.2-progress/index.wxss */
+
+/* 5进度条圆角 */
+.wx-progress-inner-bar {
+  border-radius: 5px;
+}
+
+.wx-progress-info {
+  color: blue;
+  margin-left: 35px;
+}
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3717387 */
+  src: url('//at.alicdn.com/t/c/font_3717387_arnedt3eq58.woff2?t=1666227212948') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3717387_arnedt3eq58.woff?t=1666227212948') format('woff'),
+       url('//at.alicdn.com/t/c/font_3717387_arnedt3eq58.ttf?t=1666227212948') format('truetype');
+}
+
+.iconfont{
+  font-family: 'iconfont';
+  font-size: 40px;
+}
+.icon-close::after{
+  content: '\e694';
+  color: pink;
+}
+.icon-items::before{
+  content: '\e60a';
+  color: green;
+}
