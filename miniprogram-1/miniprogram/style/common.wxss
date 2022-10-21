@@ -1,3 +1,9 @@
 .page-section {
   padding: 20px;
 }
+
+.section__title {
+  font-size: 28rpx;
+  color: #999999;
+  margin: 40rpx 0 20rpx;
+}

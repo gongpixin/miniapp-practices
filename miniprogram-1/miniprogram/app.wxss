@@ -42,3 +42,11 @@ page {
   width: 650rpx;
   height: 100%;
 }
+
+.section{
+  padding: 20px;
+}
+/* 最后一个section */
+.section:last-child{
+  padding-bottom: 100rpx;
+}
