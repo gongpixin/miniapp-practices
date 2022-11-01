@@ -2,6 +2,38 @@
 <text>pages/2.6_2.7-movable-area-view/index.wxml</text>
 
 
+<!-- 片13 扩展声明，左侧删除3 weui ext-->
+<view class="page-section-title">左侧删除3</view>
+<view class="page__bd">
+  <view class="weui-cells">
+    <mp-slideview ext-class="slideViewClass" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+      <mp-cell value="标题文字"></mp-cell>
+      <!-- <p>标题文字</p> -->
+    </mp-slideview>
+  </view>
+
+	<view class="weui-cells">
+<mp-slideview buttons="{{slideButtons}}" icon="{{true}}" bindbuttontap="slideButtonTap">
+  <view class="weui-slidecell">
+    左滑可以删除（图标Button）
+  </view>
+</mp-slideview>
+	</view>
+</view>
+
+
+<!-- 片11，左侧删除2 miniprogram-slide-view-->
+<view class="page-section-title">左侧删除2</view>
+<slide-view class="slide" width="750" height="100" slideWidth="300">
+	<view class="left" slot="left">这里是插入到组内容2</view>
+	<view class="right" slot="right">
+		<view class="read">已读</view>
+		<view class="delete">删除</view>
+	</view>
+</slide-view>
+
+<!-- 2.7 （二） -->
+
 <!-- 片8、9 左侧删除1 自实现左滑删除效果-->
 <view class="page-section-title">左侧删除1</view>
 <view class="list_item">

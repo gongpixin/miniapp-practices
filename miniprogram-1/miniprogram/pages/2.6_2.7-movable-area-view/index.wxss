@@ -29,9 +29,9 @@ movable-area {
   width: 750rpx;
   display: flex;
   flex-direction: row;
-  color: pink;
+  color: rgb(11, 214, 102);
   line-height: 100rpx;
-  padding-left: 50rpx;
+  padding-left: 30rpx;
 }
 .right {
   height: 100;
@@ -50,4 +50,12 @@ movable-area {
   background-color: red;
   color: #fff;
   width: 150rpx; 
+}
+
+/* 左侧删除3 */
+.slideViewClass{}
+
+/*  */
+.slideViewClass .weui-cell{
+  padding: 0;
 }
