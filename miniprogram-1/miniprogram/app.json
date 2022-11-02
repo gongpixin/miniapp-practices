@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/2.8_2.9-scroll-view/index",
     "pages/2.6_2.7-movable-area-view/index",
     "pages/2.4_2.5-view/index",
     "pages/2.3-rich-text/index",
